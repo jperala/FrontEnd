@@ -1,0 +1,49 @@
+body {
+   
+    text-align: center;
+    padding: 0.5em 1em;
+   
+    margin: 0 0.5em;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: 'Great Vibes', cursive;
+}
+
+.header_div {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    color:darkmagenta;
+   
+}
+#newdiv{
+    background-color: burlywood;
+    font-style: italic;
+
+}
+#nav_div {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+    
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav_item {
+    cursor: pointer;
+    color: brown;
+   
+}
+
+.nav_item:hover {
+    text-decoration: underline;
+}
+
+#content_div {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    margin-top: 20px;
+     
+
+}
